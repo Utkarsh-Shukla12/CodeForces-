@@ -2,18 +2,17 @@
 using namespace std;
 int main()
 {
-    int max;
-    for (int i = 1; i <= 5; i++ )
+    int number;
+    for(int i=0;i<5;i++)
     {
-        for (int j = 1; j <=5; j++)
+     for(int j=0;j<5;i++)
+     {
+        cin>>number;
+        if(number==1) 
         {
-            cin >> max;
-            if (max == 1)
-            {
-                cout<< (abs(i -3) + (abs (j -3)))<< endl;
-            }
+            cout<< (abs(i-3) + abs(j-3))<<endl;            
         }
+     }   
     }
     return 0;
-    
 }
